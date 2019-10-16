@@ -1,11 +1,25 @@
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: color(var(--textColor) lightness(50%));
-  font-variant-caps: small-caps;
-  position: relative;
+.header__titles{
+  padding: var(--MediumGap);
+}
 
-  &::after {
-    
-  }
+
+h1 {
+
+  color: var(--DarkColor);
+  font-size: var(--Bigfont-size);
+  padding-top: var(--MiniGap);
+  width: 23.6rem;
+}
+
+.h2-like{
+  font-size: var(--Smallfont-size);
+  
+}
+
+header{
+  background-color: var(--BgColor);
+  background-image: url(../assets/img/plan-based-coffee@2x.png);
+  background-repeat: no-repeat;
+  background-position: top 50% right var(--MediumGap);
+  background-size: 10.2rem;
 }
